@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE module [
+  <!ELEMENT module (dtdversion,name,version,description*,help*,about*,requires*,file+)>
+  <!ELEMENT dtdversion (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT version (#PCDATA)>
+  <!ELEMENT mincmsversion (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT help (#PCDATA)>
+  <!ELEMENT about (#PCDATA)>
+  <!ELEMENT requires (requiredname,requiredversion)>
+  <!ELEMENT requiredname (#PCDATA)>
+  <!ELEMENT requiredversion (#PCDATA)>
+  <!ELEMENT file (filename,isdir,data)>
+  <!ELEMENT filename (#PCDATA)>
+  <!ELEMENT isdir (#PCDATA)>
+  <!ELEMENT data (#PCDATA)>
+]>
+<module>
+	<dtdversion>1.3</dtdversion>
+	<name>test</name>
+	<version>1.0.4</version>
+    <mincmsversion>1.12-alpha0</mincmsversion>
+	<help><![CDATA[PGgzPldoYXQgZG9lcyB0aGlzIGRvPzwvaDM+CiAgPHA+VGhpcyBtb2R1bGUgcHJvdmlkZXMgdGhlIGFiaWxpdHkgdG8gcXVpY2tseSBmaW5kIHBsYWNlcyBpbiB0ZW1wbGF0ZXMsIGNvbnRlbnQgcGFnZXMsIGFuZCBvdGhlciBkYXRhYmFzZSB3aGVyZSBhIHRleHQgc3RyaW5nIG9jY3Vycy4gIEl0IGlzIHBhcnRpY3VsYXJseSB1c2VmdWwgZm9yIGZpbmRpbmcgc21hcnR5IHRhZ3MsIGNsYXNzIG5hbWVzLCBpZHMgb3Igb3RoZXIgYml0cyBvZiBIVE1MIGNvZGUgdGhhdCBtYXkgYmUgaGFyZCB0byBmaW5kIGluIGEgbGFyZ2Ugd2Vic2l0ZS48L3A+CiAgPHA+VGhpcyBtb2R1bGUgaGFzIG5vIGZyb250ZW5kIGludGVyYWN0aW9uIGl0IGlzIGRlc2lnbmVkIGZvciB1c2UgYnkgQ01TTVMgc2l0ZSBkZXZlbG9wZXJzIG9yIGVkaXRvcnMgdG8gZmluZCBzdWIgc3RyaW5ncyBvZiB0ZXh0IG9yIGNvZGUuICBOb3QgZm9yIHVzZSBpbiBmaW5kaW5nIHRleHQgb24gdGhlIGZyb250ZW5kIG9mIHdlYnNpdGVzLjwvcD4KCjxoMz5Ib3cgRG8gSSBVc2UgSXQ8L2gzPgogIDxwPlRoaXMgbW9kdWxlIGlzIHZpc2libGUgdG8gbW9zdCBhZG1pbmlzdHJhdG9ycyBvZiB0aGUgd2Vic2l0ZSB3aXRoIGF0IGxlYXN0IHNvbWUgcGVybWlzc2lvbnMgdG8gZWRpdCB0ZW1wbGF0ZXMsIHN0eWxlc2hlZXRzLCBvciBzb21lIGNvbnRlbnQgICBUaG91Z2ggdGhlIGxpc3Qgb2Ygd2hhdCBjYW4gYmUgc2VhcmNoZWQgbWF5IGJlIHJlZHVjZWQuPC9wPgogIDxwPlRoZSBtb2R1bGUgcHJvdmlkZXMgYSB0ZXh0IGZpZWxkIHdoZXJlIGEgc2luZ2xlIHN0cmluZyBjYW4gYmUgZW50ZXJlZCAodGhlIHN0cmluZyBpcyBub3QgZGl2aWRlZCBpbnRvIHdvcmRzIG9yIG90aGVyd2lzZSBwYXJzZWQpLiAgSXQgYWxzbyBwcm92aWRlcyB0aGUgYWJpbGl0eSB0byBvbmx5IHNlYXJjaCBjZXJ0YWluIHN1YnNlY3Rpb25zIG9mIHRoZSB3ZWJzaXRlLjwvcD4KICA8cD5TZWFyY2hpbmcgd2lsbCBnZW5lcmF0ZSBhIG5lc3RlZCwgZXhwYW5kYWJsZSBsaXN0IG9mIHNlY3Rpb25zIHdoZXJlIG1hdGNoZXMgd2VyZSBmb3VuZC4gIFVuZGVyIGVhY2ggc2VjdGlvbiBhIGRlc2NyaXB0aW9uIG9mIHRoZSBtYXRjaCBpcyBkaXNwbGF5ZWQuICBVc3VhbGx5IHdpdGggYSBsaW5rIHRoYXQgd2lsbCBkaXJlY3QgeW91IHRvIGEgZm9ybSB0byBlZGl0IHRoZSBpdGVtLjwvcD4KCjxoMz5TdXBwb3J0PC9oMz4KPHA+QXMgcGVyIHRoZSBHUEwsIHRoaXMgc29mdHdhcmUgaXMgcHJvdmlkZWQgYXMtaXMuIFBsZWFzZSByZWFkIHRoZSB0ZXh0IG9mIHRoZSBsaWNlbnNlIGZvciB0aGUgZnVsbCBkaXNjbGFpbWVyLjwvcD4KCjxoMz5Db3B5cmlnaHQgYW5kIExpY2Vuc2U8L2gzPgo8cD5Db3B5cmlnaHQgJmNvcHk7IDIwMTIsIGNhbGd1eTEwMDAgPGEgaHJlZj0ibWFpbHRvOmNhbGd1eTEwMDBAaG90bWFpbC5jb20iPiZsdDtjYWxndXkxMDAwQGhvdG1haWwuY29tJmd0OzwvYT4uIEFsbCBSaWdodHMgQXJlIFJlc2VydmVkLjwvcD4KPHA+VGhpcyBtb2R1bGUgaGFzIGJlZW4gcmVsZWFzZWQgdW5kZXIgdGhlIDxhIGhyZWY9Imh0dHA6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy9saWNlbnNlcy5odG1sI0dQTCI+R05VIFB1YmxpYyBMaWNlbnNlPC9hPi4gWW91IG11c3QgYWdyZWUgdG8gdGhpcyBsaWNlbnNlIGJlZm9yZSB1c2luZyB0aGUgbW9kdWxlLjwvcD4=]]></help>
+	<about><![CDATA[PGJyIC8+QXV0aG9yOiBDYWxndXkxMDAwICZsdDtjYWxndXkxMDAwQGNtc21hZGVzaW1wbGUub3JnJmd0OzxiciAvPjxiciAvPlZlcnNpb246IDEuMC40PGJyIC8+PGJyIC8+Q2hhbmdlIEhpc3Rvcnk6PGJyIC8+bm90aGluZyBoZXJlIHlldC48YnIgLz4=]]></about>
+	<description><![CDATA[A utility to search the database tables for rows containing certain text. Useful for finding where certain styles, tags, or modules are used.]]></description>
+	<file>
+	  <filename>/</filename>
+	  <isdir>1</isdir>
+	</file>
+	<file>
+	  <filename>/test.php</filename>
+	  <isdir>0</isdir>
+	  <data><![CDATA[PD9waHAKcGhwaW5mbygpOwo/Pgo=]]></data>
+	</file>
+</module>
