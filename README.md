@@ -8,9 +8,9 @@
 
 **[3]CMS Made Simple (CMSMS) <=2.2.7 "file unpack" operation in the admin dashboard contains remote code execution vulnerability(admin user)**
 
-**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclose vulnerability(ordinary user)**
+**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclosure vulnerability(ordinary user)**
 
-**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclose vulnerability that can cause DOS(admin user)**
+**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclosure vulnerability that can cause DOS(admin user)**
 
 **[6]CMS Made Simple (CMSMS) <=2.2.7 "module remove" operation in the admin dashboard contains arbitrary file deletion vulnerability that can cause DOS(admin user)**
 
@@ -246,7 +246,7 @@ Access the file, the php file is executed
 
 Vulnerability fix recommendations: when decompressing a file, determine the file type and limit the .php file to be uncompressed to the server.
 
-**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclose vulnerability(ordinary user)**
+**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclosure vulnerability(ordinary user)**
 
 In \modules\FileManager\action.view.php
 
@@ -276,7 +276,7 @@ Click "view-source" to see the contents of /config.php
 
 ![34.png](./img/34.png)
 
-**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclose vulnerability that can cause DOS(admin user)**
+**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclosure vulnerability that can cause DOS(admin user)**
 
 In \modules\FileManager\action.fileaction.php
 
@@ -296,7 +296,7 @@ Line 40 gets the file name to be renamed, and ```$oldname``` comes from line 26
 
 ```$oldname``` is handled by the decodefilename function, but this function simply performs a base64decode on the characters without any filtering
 
-To sum up: hackers can move /config.php across directories to the /upload/ directory, causing websites to be inaccessible(DOS) and sensitive database information disclose.
+To sum up: hackers can move /config.php across directories to the /upload/ directory, causing websites to be inaccessible(DOS) and sensitive database information disclosure.
 
 Exploits:
 Enter
