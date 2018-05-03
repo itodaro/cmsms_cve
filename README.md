@@ -2,23 +2,23 @@
 
 ####General description：
 
-**[1]CMS Made Simple (CMSMS) 2.2.7 contains the privilege escalation vulnerability from ordinary user to admin user**
+**[1]CMS Made Simple (CMSMS) 2.2.7 contains the privilege escalation vulnerability from ordinary user to admin user(CVE-2018-10519)**
 
-**[2]CMS Made Simple (CMSMS) <=2.2.7 "module import" operation in the admin dashboard contains remote code execution vulnerabilities(admin user)**
+**[2]CMS Made Simple (CMSMS) <=2.2.7 "module import" operation in the admin dashboard contains remote code execution vulnerabilities(admin user)(CVE-2018-10517)**
 
-**[3]CMS Made Simple (CMSMS) <=2.2.7 "file unpack" operation in the admin dashboard contains remote code execution vulnerability(admin user)**
+**[3]CMS Made Simple (CMSMS) <=2.2.7 "file unpack" operation in the admin dashboard contains remote code execution vulnerability(admin user)(CVE-2018-10515)**
 
-**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclosure vulnerability(ordinary user)**
+**[4]CMS Made Simple (CMSMS) <=2.2.7 "file view" operation in the admin dashboard contains sensitive information disclosure vulnerability(ordinary user)(CVE-2018-10522)**
 
-**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclosure vulnerability that can cause DOS(admin user)**
+**[5]CMS Made Simple (CMSMS) <=2.2.7 "file rename" operation in the admin dashboard contains sensitive information disclosure vulnerability that can cause DOS(admin user)(CVE-2018-10516)**
 
-**[6]CMS Made Simple (CMSMS) <=2.2.7 "module remove" operation in the admin dashboard contains arbitrary file deletion vulnerability that can cause DOS(admin user)**
+**[6]CMS Made Simple (CMSMS) <=2.2.7 "module remove" operation in the admin dashboard contains arbitrary file deletion vulnerability that can cause DOS(admin user)(CVE-2018-10520)**
 
-**[7]CMS Made Simple (CMSMS) <=2.2.7 "file delete" operation in the admin dashboard contains arbitrary file deletion vulnerability that can cause DOS(admin user)**
+**[7]CMS Made Simple (CMSMS) <=2.2.7 "file delete" operation in the admin dashboard contains arbitrary file deletion vulnerability that can cause DOS(admin user)(CVE-2018-10518)**
 
-**[8]CMS Made Simple (CMSMS) <=2.2.7 "file move" operation in the admin dashboard contains arbitrary file movement vulnerability that can cause DOS(admin user)**
+**[8]CMS Made Simple (CMSMS) <=2.2.7 "file move" operation in the admin dashboard contains arbitrary file movement vulnerability that can cause DOS(admin user)(CVE-2018-10521)**
 
-**[9]CMS Made Simple (CMSMS) <=2.2.7 contains web Site physical path leakage Vulnerability**
+**[9]CMS Made Simple (CMSMS) <=2.2.7 contains web Site physical path leakage Vulnerability(CVE-2018-10523)**
 
 _ _ _
 
